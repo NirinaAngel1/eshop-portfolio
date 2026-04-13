@@ -18,19 +18,19 @@ export default function Home() {
             <div className="flex-1 text-center lg:text-left space-y-8">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400 text-sm font-bold tracking-wide uppercase">
                 <Zap size={14} fill="currentColor" />
-                Vaovao be!!!
+                Nouveauté 2026
               </div>
 
-              <h1 className="text-5xl lg:text-7xl font-black tracking-tight text-gray-900 dark:text-white leading-[1.1]">
-                Ny mora sy ny tsara indrindra<br /> 
+              <h1 className="text-4xl lg:text-5xl font-black tracking-tight text-gray-900 dark:text-white leading-[1.1]">
+                Des produits de qualités et de bons prix<br /> 
                 <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
-                  no tafiaraka !
+                  rien que pour vous!
                 </span>
               </h1>
               
               <p className="text-xl text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
-                Tongasoa eto @ <span className="font-semibold text-gray-900 dark:text-white">Nirina Shop</span>. 
-                Ho hitanao ato ny vokatra tsara sy voafantina amin'ny vidiny mirary. Hanampy anao ahita izay ilainao amin'ny fotoana fohy indrindra izahay.
+                Bienvenue sur <span className="font-semibold text-gray-900 dark:text-white">Nirina Shop</span>. 
+                Nous avons selectionné pour vous une gamme exclusive de produits de qualité, choisis avec soin pour répondre à vos besoins et à votre style de vie.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
@@ -38,7 +38,7 @@ export default function Home() {
                   href="/produits" 
                   className="group flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-xl shadow-blue-500/25 hover:scale-105"
                 >
-                  Sokafy ny botika
+                  Ouvrir la boutique
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </Link>
                 
@@ -48,7 +48,7 @@ export default function Home() {
                       <div key={i} className="w-8 h-8 rounded-full border-2 border-white dark:border-black bg-gray-200" />
                     ))}
                   </div>
-                  <span>maro ireo mpanjifa mahatoky</span>
+                  <span>De nombreux clients satisfaits</span>
                 </div>
               </div>
 
@@ -58,12 +58,12 @@ export default function Home() {
                   <div className="p-2 rounded-lg bg-green-50 dark:bg-green-900/20 text-green-600">
                     <ShieldCheck size={20} />
                   </div>
-                  <span className="text-sm font-semibold">Fandoavam-bola voaharo</span>
+                  <span className="text-sm font-semibold">Paiement sécurisé</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg bg-orange-50 dark:bg-orange-900/20 text-orange-600">
                   </div>
-                  <span className="text-sm font-semibold">🚚 sara-panaterana mora!</span>
+                  <span className="text-sm font-semibold">🚚 Livraison rapide!</span>
                 </div>
               </div>
             </div>
